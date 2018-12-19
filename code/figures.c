@@ -28,5 +28,5 @@ void rectangle(){
   cout<<"Height: ";
   cin>>height;
   area=base*height;
-  cout<<area<<endl;
+  cout<<"The area of the rectangle is: "<<area<<endl;
 }
