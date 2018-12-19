@@ -42,5 +42,5 @@ void triangle(){
   cout<<"Height: ";
   cin>>height;
   area=(base*height)/2.0;
-  cout<<area<<endl;
+  cout<<"The area of the triangle is: "<<area<<endl;
 }
