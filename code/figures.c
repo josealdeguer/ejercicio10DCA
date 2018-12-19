@@ -55,5 +55,5 @@ void circle(){
   cout<<"Radius: ";
   cin>>radius;
   area=3,1415*radius*radius;
-  cout<<area<<endl;
+  cout<<"The area of the circle is: "<<area<<endl;
 }
