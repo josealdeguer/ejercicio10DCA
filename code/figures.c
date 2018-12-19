@@ -8,6 +8,8 @@ void circle();
 main(){
   int option=1;
 
+  cout<<"Cambio para probar hook"<<endl;
+
   do{
     cout<<"Select an option: "<<endl;
     cout<<"1. Area of a rectangle"<<endl;
@@ -29,7 +31,7 @@ main(){
 
 void rectangle(){
   float base=0, height=0, area=0;
-  
+
   cout<<"Base: ";
   cin>>base;
   cout<<"Height: ";
@@ -40,7 +42,7 @@ void rectangle(){
 
 void triangle(){
   float base=0, height=0, area=0;
-  
+
   cout<<"Base: ";
   cin>>base;
   cout<<"Height: ";
@@ -51,7 +53,7 @@ void triangle(){
 
 void circle(){
   float radius=0, area=0;
-  
+
   cout<<"Radius: ";
   cin>>radius;
   area=3,1415*radius*radius;
